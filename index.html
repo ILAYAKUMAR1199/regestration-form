@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head> 
+<body>
+    <div class="container">
+    <form action="" id="form">
+        <h1>Register</h1>
+        <div class="input-group">
+            <label for="username">UserName </label>
+            <input type="text" id="name"  >
+            <div class="nameerror">
+                <span> ! Name must contain only tetters</span>
+            </div>
+        </div>
+        <div class="input-group">
+            <label for="email">Email </label>
+            <input type="email" id="email" >
+            <div class="emailerror"><span>! Enter valide email</span></div>
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <div class="perror"><span>! Password must be one uppercase and 5+character </span></div>
+        </div>
+        
+        <button type="submit" id="button">Register</button>
+
+    </form>    
+    <div>
+        <script src="app.js"></script>
+</body>
+</html>
